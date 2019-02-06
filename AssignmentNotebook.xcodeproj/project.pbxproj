@@ -13,6 +13,7 @@
 		42EACA2B220B510A0097C89F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EACA29220B510A0097C89F /* Main.storyboard */; };
 		42EACA2D220B510C0097C89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EACA2C220B510C0097C89F /* Assets.xcassets */; };
 		42EACA30220B510C0097C89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EACA2E220B510C0097C89F /* LaunchScreen.storyboard */; };
+		42EACA38220B51860097C89F /* Assignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EACA37220B51860097C89F /* Assignments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		42EACA2C220B510C0097C89F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42EACA2F220B510C0097C89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42EACA31220B510C0097C89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EACA37220B51860097C89F /* Assignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				42EACA25220B510A0097C89F /* MasterViewController.swift */,
 				42EACA27220B510A0097C89F /* DetailViewController.swift */,
 				42EACA29220B510A0097C89F /* Main.storyboard */,
+				42EACA37220B51860097C89F /* Assignments.swift */,
 				42EACA2C220B510C0097C89F /* Assets.xcassets */,
 				42EACA2E220B510C0097C89F /* LaunchScreen.storyboard */,
 				42EACA31220B510C0097C89F /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EACA38220B51860097C89F /* Assignments.swift in Sources */,
 				42EACA28220B510A0097C89F /* DetailViewController.swift in Sources */,
 				42EACA26220B510A0097C89F /* MasterViewController.swift in Sources */,
 				42EACA24220B510A0097C89F /* AppDelegate.swift in Sources */,
