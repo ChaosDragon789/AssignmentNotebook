@@ -33,62 +33,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eu6-Lg-bUW">
-                                <rect key="frame" x="112.5" y="180" width="150" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="33C-gg-NBi"/>
-                                    <constraint firstAttribute="width" constant="150" id="uqj-vJ-EJj"/>
-                                </constraints>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eu6-Lg-bUW">
+                                <rect key="frame" x="113" y="180" width="150" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Subject" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ExW-IK-fiq">
-                                <rect key="frame" x="112.5" y="239" width="150" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="Cpy-uX-jm4"/>
-                                    <constraint firstAttribute="height" constant="30" id="MN1-3w-9kI"/>
-                                </constraints>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Subject" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ExW-IK-fiq">
+                                <rect key="frame" x="113" y="239" width="150" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ya9-wE-8Xg">
-                                <rect key="frame" x="112.5" y="410" width="150" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="iHa-72-gIV"/>
-                                    <constraint firstAttribute="width" constant="150" id="yrE-Tg-xtz"/>
-                                </constraints>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Due Date" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jgn-ql-WlN">
+                                <rect key="frame" x="113" y="291" width="150" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Due Date" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jgn-ql-WlN">
-                                <rect key="frame" x="112.5" y="291" width="150" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YMJ-kV-LrW">
+                                <rect key="frame" x="67.5" y="380" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="JrF-y0-5wp"/>
-                                    <constraint firstAttribute="height" constant="30" id="YY8-OX-7qt"/>
+                                    <constraint firstAttribute="height" constant="128" id="HgN-CL-3IJ"/>
+                                    <constraint firstAttribute="width" constant="240" id="K0V-5X-0jU"/>
                                 </constraints>
-                                <nil key="textColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="jgn-ql-WlN" firstAttribute="top" secondItem="ExW-IK-fiq" secondAttribute="bottom" constant="22" id="2Pc-fm-aY5"/>
-                            <constraint firstItem="ya9-wE-8Xg" firstAttribute="top" secondItem="jgn-ql-WlN" secondAttribute="bottom" constant="89" id="7sG-dM-B0a"/>
-                            <constraint firstItem="ExW-IK-fiq" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="C7m-Uh-rgt"/>
-                            <constraint firstItem="jgn-ql-WlN" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="FGj-Wh-vcd"/>
-                            <constraint firstItem="eu6-Lg-bUW" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="Lye-jZ-uD3"/>
-                            <constraint firstItem="ya9-wE-8Xg" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="dAH-Ep-GED"/>
-                            <constraint firstItem="ExW-IK-fiq" firstAttribute="top" secondItem="eu6-Lg-bUW" secondAttribute="bottom" constant="29" id="eDK-2O-qSy"/>
-                            <constraint firstItem="eu6-Lg-bUW" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" constant="116" id="swH-6J-lnK"/>
+                            <constraint firstItem="YMJ-kV-LrW" firstAttribute="centerX" secondItem="eu6-Lg-bUW" secondAttribute="centerX" id="2gp-FH-MWR"/>
+                            <constraint firstItem="YMJ-kV-LrW" firstAttribute="centerX" secondItem="ExW-IK-fiq" secondAttribute="centerX" id="5Pf-yn-gJi"/>
+                            <constraint firstItem="YMJ-kV-LrW" firstAttribute="top" secondItem="jgn-ql-WlN" secondAttribute="bottom" constant="59" id="77w-Fs-fE6"/>
+                            <constraint firstItem="YMJ-kV-LrW" firstAttribute="centerX" secondItem="jgn-ql-WlN" secondAttribute="centerX" id="KOf-wq-HPH"/>
+                            <constraint firstItem="VUw-jc-0yf" firstAttribute="bottom" secondItem="YMJ-kV-LrW" secondAttribute="bottom" constant="159" id="jj0-on-ZMd"/>
+                            <constraint firstItem="YMJ-kV-LrW" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="kS1-vs-d42"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Assignment" id="mOI-FS-AaM"/>
+                    <connections>
+                        <outlet property="dateTextField" destination="jgn-ql-WlN" id="1qP-O1-vMr"/>
+                        <outlet property="descTextField" destination="YMJ-kV-LrW" id="cmr-08-CSh"/>
+                        <outlet property="nameTextField" destination="eu6-Lg-bUW" id="ff3-2j-ek8"/>
+                        <outlet property="subjectTextField" destination="ExW-IK-fiq" id="JGl-8d-jQk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
